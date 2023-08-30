@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: aqua;
+      }
+      main .float {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        background-color: blueviolet;
+        padding: 20px;
+      }
+      main .float div {
+        background-color: cornflowerblue;
+        width: 200px;
+      }
+      main div img {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+      }
+      main .float p {
+        width: 200px;
+      }
+      .a {
+        color: blue;
+      }
+      .b {
+        color: chartreuse;
+      }
+      .c {
+        color: yellow;
+      }
+      .d {
+        color: orange;
+      }
+      .e {
+        color: palevioletred;
+      }
+      .f {
+        color: orangered;
+      }
+      .a,
+      .b,
+      .c,
+      .d,
+      .e,
+      .f {
+        font-size: 50px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="float">
+        <img src="./bratwurst.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          possimus accusantium illum laborum doloribus voluptatem culpa maiores
+          deleniti nulla? Blanditiis quasi est provident recusandae expedita
+          dolore debitis temporibus consequuntur quas!
+        </p>
+        <div class="a">A</div>
+        <div class="b">B</div>
+      </div>
+      <div class="float">
+        <img src="./pommes.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
+          cumque tenetur nisi optio laudantium ducimus recusandae repudiandae.
+          Laboriosam tempora eligendi iusto nostrum molestiae. Fugiat distinctio
+          obcaecati corporis neque nemo!
+        </p>
+        <div class="c">C</div>
+        <div class="d">D</div>
+      </div>
+      <div class="float">
+        <img src="./salat.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          voluptatum vero quaerat incidunt? Tempora eum soluta, consectetur
+          incidunt quod placeat veritatis pariatur suscipit eaque? Impedit
+          debitis ipsam voluptatibus corporis accusantium.
+        </p>
+        <div class="e">E</div>
+        <div class="f">F</div>
+      </div>
+    </main>
+  </body>
+</html>
